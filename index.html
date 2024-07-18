@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth scroll-p-[90px] overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caroline Fotografuje</title>
+    <script type="module" crossorigin src="/assets/main-CTmpM89x.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-CkAyWXPm.css">
+  </head>
+  <body class="font-montserrat_regular">
+    <nav
+      class="navbar fixed top-0 flex h-[90px] w-full justify-between items-center text-2xl transition-colors duration-[.3s] z-20 md:justify-end xl:pr-[3em]"
+    >
+      <ul
+        id="nav-items"
+        class="nav-items flex flex-col items-center justify-center absolute top-0 pr-[3em] translate-x-[100%] bg-white backdrop-blur-[7px] w-[100%] h-[100vh] text-3xl text-custom-brown transition-all duration-[.75s] z-10 md:flex md:flex-row md:h-0 md:w-auto md:relative md:translate-x-0 md:my-5 md:pr-0 md:text-xl md:text-black lg:text-2xl"
+      >
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#aboutme"
+            class="hover:text-custom-darkerbeige md:hover:text-custom-brown transition-colors duration-[.2s] md:mx-3 md:p-4 lg:mx-5"
+            >O mnie</a
+          >
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#offert"
+            class="hover:text-custom-darkerbeige md:hover:text-custom-brown transition-colors duration-[.2s] md:mx-3 md:p-4 lg:mx-5"
+            >Oferta</a
+          >
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#portfolio"
+            class="hover:text-custom-darkerbeige md:hover:text-custom-brown transition-colors duration-[.2s] md:mx-3 md:p-4 lg:mx-5"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="#contact"
+            class="hover:text-custom-darkerbeige md:hover:text-custom-brown transition-colors duration-[.2s] md:mx-3 md:p-4 lg:mx-5"
+            >Kontakt</a
+          >
+        </li>
+        <li class="nav-item my-5 md:my-0">
+          <a
+            href="./cennik.html"
+            class="hover:text-custom-darkerbeige md:hover:text-custom-brown transition-colors duration-[.2s] md:mx-3 md:p-4 lg:mx-5"
+            >Cennik</a
+          >
+        </li>
+      </ul>
+      <button
+        name="menu-burger button"
+        aria-label="Menu-burger"
+        class="burger-icon group absolute top-[50%] right-[40px] w-[40px] h-[40px] translate-y-[-50%] z-10 md:hidden"
+      >
+        <div
+          data-number="1"
+          class="icon-line w-full h-[4px] bg-custom-brown my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="2"
+          class="icon-line w-full h-[4px] bg-custom-brown my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="3"
+          class="icon-line w-full h-[4px] bg-custom-brown my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+      </button>
+    </nav>
+    <header>
+      <section
+        id="home"
+        class="home relative h-[100vh] bg-custom-beige overflow-hidden"
+      >
+        <picture class="background-wave">
+          <source srcset="wavesNegative.webp" type="wavesNegative/webp" />
+          <source srcset="wavesNegative.png" type="wavesNegative/png" />
+          <img src="./img/wavesNegative 2.png" alt="" class="h-[100vh]" />
+        </picture>
+        <div class="home-content absolute top-0 w-full h-[100vh]">
+          <h1
+            class="mt-[10vh] ml-[.5em] mr-[2em] font-italiana text-[3.5rem] sm:mt-[20vh] md:ml-[2em] lg:ml-[5em]"
+          >
+            Caroline Fotografuje
+          </h1>
+          <p
+            class="pl-[1em] pt-[2vh] font-montserrat_light text-xl sm:pt-[5vh] md:pl-[6em] md:pt-[2em] lg:pl-[17em] md:text-2xl xl:pl-[25em] 2xl:pl-[30em] 2xl:pt-[3em]"
+          >
+            Fotografia rodzinna, ciążowa, noworodkowa,<br />
+            kobieca i ślubna. Sesje studyjne oraz plenerowe.
+          </p>
+          <div class="photos-container absolute bottom-0 left-0">
+            <div
+              class="photo1 absolute inline-block mx-[1em] bottom-[5vh] translate-x-[-1em] w-[175px] bg-white lg:w-[225px] 2xl:w-[260px] translate-y-[150%] opacity-0 animate-customShowPhoto1"
+            >
+              <picture>
+                <source srcset="photo_2.webp" type="photo_2/webp" />
+                <source srcset="photo_2.jpg" type="photo_2/jpeg" />
+                <img
+                  src="./img/photo_2.jpg"
+                  alt="Klęcząca kobieta trzymająca na rękach małe dziecko, aranżacja świąteczna"
+                  class="w-[175px] p-[.5em] lg:w-[225px] 2xl:w-[260px]"
+                />
+              </picture>
+            </div>
+            <div
+              class="photo2 absolute inline-block mx-[1em] bottom-[4vh] translate-x-[7.5em] rotate-[10deg] w-[175px] bg-white lg:w-[225px] 2xl:w-[260px] 2xl:mx-[3em] translate-y-[150%] opacity-0 animate-customShowPhoto2"
+            >
+              <picture>
+                <source srcset="photo_1.webp" type="photo_1/webp" />
+                <source srcset="photo_1.jpg" type="photo_1/jpeg" />
+                <img
+                  src="./img/photo_1.jpg"
+                  alt="Para młoda trzyma się za ręce"
+                  class="w-[175px] p-[.5em] lg:w-[225px] 2xl:w-[260px]"
+                />
+              </picture>
+            </div>
+            <div
+              class="photo3 absolute inline-block mx-[1em] bottom-[-5vh] translate-x-[15.5em] rotate-[30deg] w-[165px] bg-white lg:bottom-[-3em] lg:w-[210px] 2xl:w-[250px] 2xl:mx-[5em] translate-y-[150%] opacity-0 animate-customShowPhoto3"
+            >
+              <picture>
+                <source srcset="photo_3_1.webp" type="photo_3_1/webp" />
+                <source srcset="photo_3_1.png" type="photo_3_1/png" />
+                <img
+                  src="./img/photo_3_1.png"
+                  alt="Śmiejący się chłopiec i dziewczynka"
+                  class="w-[165px] p-[.5em] lg:w-[210px] 2xl:w-[250px]"
+                />
+              </picture>
+            </div>
+          </div>
+          <div
+            class="photo-camera absolute bottom-[9.25em] right-0 w-[225px] md:bottom-[2em] md:w-[275px] lg:w-[325px] 2xl:bottom-[5em] 2xl:w-[350px] translate-x-[100%] opacity-0 animate-customShowCamera"
+          >
+            <picture>
+              <source srcset="camera.webp" type="camera/webp" />
+              <source srcset="camera.png" type="camera/png" />
+              <img src="./img/camera.png" alt="Aparat fotograficzny" />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="aboutme" class="aboutme bg-custom-darkbeige">
+        <h2
+          class="pt-[3em] font-montserrat_light text-center text-xl tracking-wider uppercase"
+        >
+          O mnie
+        </h2>
+        <div
+          class="aboutme-container flex flex-row justify-center items-center"
+        >
+          <div
+            class="aboutme-card mt-[3em] mb-[6em] mx-[1em] p-[1.5em] max-w-[400px] bg-white rounded-tl-[5px] rounded-tr-[80px] rounded-br-[5px] rounded-bl-[80px] shadow-[3px_4px_4px_1px_rgba(0,0,0,0.3)] lg:flex flex-row lg:max-w-[1000px]"
+          >
+            <picture>
+              <source srcset="aboutme_photo.webp" type="aboutme_photo/webp" />
+              <source srcset="aboutme_photo.jpg" type="aboutme_photo/jpeg" />
+              <img
+                src="./img/aboutme_photo.jpg"
+                alt="Karolina z aparatem"
+                class="rounded-tl-[5px] rounded-tr-[80px] rounded-br-[5px] rounded-bl-[80px] lg:rounded-tr-[80px]"
+              />
+            </picture>
+            <div
+              class="card-text my-[2em] text-center bg-custom-beige rounded-tl-[5px] rounded-tr-[5px] rounded-br-[5px] rounded-bl-[80px] lg:ml-[1em] lg:rounded-bl-[5px] lg:rounded-tr-[80px] lg:my-[0em]"
+            >
+              <p class="card-title py-[1em] text-4xl font-italianno">
+                Karolina Cyniak-Szerszeń
+              </p>
+              <p
+                class="more-info px-[1.5em] pb-[5em] text-left lg:mt-[2em] lg:px-[3em]"
+              >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati laudantium, commodi pariatur nulla cum modi, eligendi
+                incidunt at eveniet cumque dolor. Qui tenetur delectus voluptate
+                totam exercitationem voluptas, illo voluptatum, facere nam
+                voluptates possimus blanditiis doloremque voluptatem omnis amet
+                perspiciatis quibusdam dignissimos quis, at nostrum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="offert"
+        class="offert relative bg-[url('../img/ofert_background.jpg')] bg-no-repeat bg-fixed bg-cover bg-center"
+      >
+        <div
+          class="bg-shadow absolute w-full h-[100%] bg-[#000] opacity-[50%]"
+        ></div>
+        <h2
+          class="absolute top-0 left-[50%] translate-x-[-50%] pt-[3em] font-montserrat_light text-center text-xl tracking-wider uppercase text-white"
+        >
+          Oferta
+        </h2>
+        <div
+          class="offert-container relative flex flex-col items-center top-0 w-full h-[100%] py-[6em]"
+        >
+          <div
+            class="offert-card card-1 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_1.webp" type="ofert_photo_1/webp" />
+                <source srcset="ofert_photo_1.jpg" type="ofert_photo_1/jpeg" />
+                <img
+                  src="./img/ofert_photo_1.jpg"
+                  alt="rodzice trzymają dziecko na kolanach i otwierają z nim prezent świąteczny"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Fotografia rodzinna
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+          <div
+            class="offert-card card-2 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row-reverse lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_2.webp" type="ofert_photo_2/webp" />
+                <source srcset="ofert_photo_2.jpg" type="ofert_photo_2/jpeg" />
+                <img
+                  src="./img/ofert_photo_2.jpg"
+                  alt="Kobieta w ciąży trzyma za ręce mężczyznę w zielonej szklarni"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Fotografia ciążowa
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+          <div
+            class="offert-card card-3 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_3.webp" type="ofert_photo_3/webp" />
+                <source srcset="ofert_photo_3.jpg" type="ofert_photo_3/jpeg" />
+                <img
+                  src="./img/ofert_photo_3.jpg"
+                  alt="Kobieta pozująca do zdjęcia"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Fotografia kobieca
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+          <div
+            class="offert-card card-4 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row-reverse lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_4.webp" type="ofert_photo_4/webp" />
+                <source srcset="ofert_photo_4.jpg" type="ofert_photo_4/jpeg" />
+                <img
+                  src="./img/ofert_photo_4.jpg"
+                  alt="Para młoda na stojąca na pomoście nad jeziorem"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Fotografia ślubna
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+          <div
+            class="offert-card card-5 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_5.webp" type="ofert_photo_5/webp" />
+                <source srcset="ofert_photo_5.jpg" type="ofert_photo_5/jpeg" />
+                <img
+                  src="./img/ofert_photo_5.jpg"
+                  alt="Mama z dzieckiem na kwiecistej huśtawce"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Sesje studyjne
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+          <div
+            class="offert-card card-6 my-[5em] mx-[2em] p-[1em] max-w-[400px] bg-white flex flex-col lg:flex-row-reverse lg:max-w-[1200px] blur-lg opacity-0 transition-all duration-[.5s]"
+          >
+            <div class="card-img lg:max-w-[400px]">
+              <picture>
+                <source srcset="ofert_photo_6.webp" type="ofert_photo_6/webp" />
+                <source srcset="ofert_photo_6.jpg" type="ofert_photo_6/jpeg" />
+                <img
+                  src="./img/ofert_photo_6.jpg"
+                  alt="Mężczyzna z kobietą na łące"
+                />
+              </picture>
+            </div>
+            <div class="card-text">
+              <p
+                class="card-text-title my-[.5em] font-italianno text-[2.8rem] text-center lg:my-[0em] lg:mb-[1em]"
+              >
+                Sesje plenerowe
+              </p>
+              <p
+                class="card-text mt-[1em] mb-[2em] text-center lg:text-left lg:ml-[2em]"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                repellendus totam amet rem quae? Quis fugit obcaecati
+                repudiandae consequuntur distinctio vel ducimus aspernatur.
+                Dignissimos cumque iste ea eius ad vitae?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio bg-custom-beige">
+        <h2
+          class="pt-[3em] font-montserrat_light text-center text-xl tracking-wider uppercase"
+        >
+          Portfolio
+        </h2>
+        <!-- Początek karuzeli -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper py-[8em] mb-[2em]">
+            <!-- Sesje ślubne -->
+            <div class="swiper-slide relative">
+              <a
+                href="./sesje-slubne.html"
+                aria-label="Przejdź do galerii sesji ślubnych"
+              >
+                <div
+                  class="shadow absolute w-[100%] h-[100%] bg-[rgba(0,0,0,.25)]"
+                ></div>
+                <picture>
+                  <source
+                    srcset="ofert_photo_4.webp"
+                    type="ofert_photo_4/webp"
+                  />
+                  <source
+                    srcset="ofert_photo_4.jpg"
+                    type="ofert_photo_4/jpeg"
+                  />
+                  <img
+                    src="./img/ofert_photo_4.jpg"
+                    alt="Para młoda na stojąca na pomoście nad jeziorem"
+                  />
+                </picture>
+                <p
+                  class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-5xl font-italianno"
+                >
+                  Sesje ślubne
+                </p>
+              </a>
+            </div>
+            <!-- Sesje plenerowe -->
+            <div class="swiper-slide relative">
+              <a
+                href="./sesje-plenerowe.html"
+                aria-label="Przejdź do galerii sesji plenerowych"
+              >
+                <div
+                  class="shadow absolute w-[100%] h-[100%] bg-[rgba(0,0,0,.25)]"
+                ></div>
+                <picture>
+                  <source srcset="portfolio_1.webp" type="portfolio_1/webp" />
+                  <source srcset="portfolio_1.jpg" type="portfolio_1/jpeg" />
+                  <img
+                    src="./img/portfolio_1.jpg"
+                    alt="Para w górach trzymająca się za ręce, mężczyzna niesie dziecko na ramionach"
+                  />
+                </picture>
+                <p
+                  class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-5xl font-italianno"
+                >
+                  Sesje plenerowe
+                </p>
+              </a>
+            </div>
+            <!-- Sesje ciążowe -->
+            <div class="swiper-slide relative">
+              <a
+                href="./sesje-ciazowe.html"
+                aria-label="Przejdź do galerii sesji ciążowych"
+              >
+                <div
+                  class="shadow absolute w-[100%] h-[100%] bg-[rgba(0,0,0,.25)]"
+                ></div>
+                <picture>
+                  <source
+                    srcset="price_photo_6.webp"
+                    type="price_photo_6/webp"
+                  />
+                  <source
+                    srcset="price_photo_6.jpg"
+                    type="price_photo_6/jpeg"
+                  />
+                  <img
+                    src="./img/price_photo_6.jpg"
+                    alt="Kobieta w ciąży na polu lawendy"
+                  />
+                </picture>
+                <p
+                  class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-5xl font-italianno"
+                >
+                  Sesje ciążowe
+                </p>
+              </a>
+            </div>
+            <!-- Sesje świąteczne -->
+            <div class="swiper-slide relative">
+              <a
+                href="./sesje-swiateczne.html"
+                aria-label="Przejdź do galerii sesji świątecznych"
+              >
+                <div
+                  class="shadow absolute w-[100%] h-[100%] bg-[rgba(0,0,0,.25)]"
+                ></div>
+                <picture>
+                  <source srcset="portfolio_3.webp" type="portfolio_3/webp" />
+                  <source srcset="portfolio_3.jpg" type="portfolio_3/jpeg" />
+                  <img
+                    src="./img/portfolio_3.jpg"
+                    alt="Rodzice z małym dzieckiem na sesji świątecznej"
+                  />
+                </picture>
+                <p
+                  class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-5xl font-italianno"
+                >
+                  Sesje świąteczne
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Koniec karuzeli -->
+      </section>
+      <section id="contact" class="contact bg-custom-light">
+        <h2
+          class="pt-[3em] pb-[1em] font-montserrat_light text-center text-xl tracking-wider uppercase"
+        >
+          Kontakt
+        </h2>
+        <div class="wrapper">
+          <div
+            class="contact-container relative px-[1em] py-[3em] flex flex-col justify-center items-center lg:flex-row"
+          >
+            <div class="photo px-[2em] lg:mr-[3em]">
+              <picture>
+                <source srcset="contact_photo.webp" type="contact_photo/webp" />
+                <source srcset="contact_photo.jpg" type="contact_photo/jpeg" />
+                <img
+                  src="./img/contact_photo.jpg"
+                  alt="Zdjęcie portretowe Karoliny"
+                  class="w-[100%] max-w-[400px] rounded-t-[50%] rounded-bl-[50%] shadow-[2px_4px_25px_1px_rgba(0,0,0,0.75)]"
+                />
+              </picture>
+            </div>
+            <div
+              class="contact-info w-[100%] max-w-[400px] mt-[3em] justify-center items-center text-center lg:ml-[3em]"
+            >
+              <p class="mb-[2em] text-2xl font-light lg:mb-[2.5em]">
+                Karolina Cyniak-Szerszeń
+              </p>
+              <div
+                class="contact-info-phone flex flex-row items-center justify-start mb-[1.5em] lg:mb-[2em]"
+              >
+                <a
+                  href="tel:123456789"
+                  aria-label="Zadzwoń na numer 123456789"
+                  class="inline-block rounded-[50%] bg-custom-darkerbeige hover:bg-[#dabdb0] transition-colors duration-[.2s]"
+                >
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 512 512"
+                    class="p-[0.75em]"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64c0 247.4 200.6 448 448 448c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368c-70.4-33.3-127.4-90.3-160.7-160.7l49.3-40.3c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                    />
+                  </svg>
+                </a>
+                <p class="ml-[0.5em] text-lg sm:ml-[1.5em]">123-456-789</p>
+              </div>
+              <div
+                class="contact-info-mail flex flex-row items-center justify-start mb-[1.5em] lg:mb-[2em]"
+              >
+                <a
+                  href="mailto:caroline.fotografuje@gmail.com"
+                  aria-label="Napisz email na adres caroline.fotografuje@gmail.com"
+                  class="inline-block rounded-[50%] bg-custom-darkerbeige hover:bg-[#dabdb0] transition-colors duration-[.2s]"
+                >
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 20 20"
+                    class="p-[0.75em]"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m7.172 11.334l2.83 1.935l2.728-1.882l6.115 6.033c-.161.052-.333.08-.512.08H1.667c-.22 0-.43-.043-.623-.12l6.128-6.046ZM20 6.376v9.457c0 .247-.054.481-.15.692l-5.994-5.914L20 6.376ZM0 6.429l6.042 4.132l-5.936 5.858A1.663 1.663 0 0 1 0 15.833V6.43ZM18.333 2.5c.92 0 1.667.746 1.667 1.667v.586L9.998 11.648L0 4.81v-.643C0 3.247.746 2.5 1.667 2.5h16.666Z"
+                    />
+                  </svg>
+                </a>
+                <p class="ml-[0.5em] text-md sm:text-lg sm:ml-[1.5em]">
+                  caroline.fotografuje@gmail.com
+                </p>
+              </div>
+              <div
+                class="contact-info-instagram flex flex-row items-center justify-start mb-[1.5em] lg:mb-[2em]"
+              >
+                <a
+                  href="https://www.instagram.com/caroline_fotografuje/?fbclid=IwZXh0bgNhZW0CMTAAAR05hxUo2Mb7nR-yQG3Noom18gGIduBsBBfjDNDYmEkBEQYW-T7an62sxpA_aem_fo54B7pfsHDG64LiqT30fQ"
+                  aria-label="Sprawdź profil Caroline Fotografuje na Instagramie"
+                  class="inline-block rounded-[50%] bg-custom-darkerbeige hover:bg-[#dabdb0] transition-colors duration-[.2s]"
+                  ><svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 14 14"
+                    class="p-[0.75em]"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M3.39.787A2.604 2.604 0 0 0 .786 3.39v6.944a2.604 2.604 0 0 0 2.604 2.604h6.944a2.604 2.604 0 0 0 2.603-2.604V3.39A2.604 2.604 0 0 0 10.334.787zm7.693 2.607a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m-4.22 1.388a2.08 2.08 0 1 0 0 4.16a2.08 2.08 0 0 0 0-4.16m-3.081 2.08a3.08 3.08 0 1 1 6.16 0a3.08 3.08 0 0 1-6.16 0"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <p class="ml-[0.5em] text-md sm:text-lg sm:ml-[1.5em]">
+                  Sprawdź mój profil na Instagramie
+                </p>
+              </div>
+              <div
+                class="contact-info-facebook flex flex-row items-center justify-start mb-[1.5em] lg:mb-[2em]"
+              >
+                <a
+                  href="https://www.facebook.com/Carolinefotografuje"
+                  aria-label="Sprawdź profil Caroline Fotografuje na facebooku"
+                  class="inline-block rounded-[50%] bg-custom-darkerbeige hover:bg-[#dabdb0] transition-colors duration-[.2s]"
+                  ><svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 24 24"
+                    class="p-[0.75em]"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669c1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+                <p class="ml-[0.5em] text-md sm:text-lg sm:ml-[1.5em]">
+                  Sprawdź mój profil na Facebooku
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-custom-darkerbeige py-[3em]">
+      <p class="text-3xl font-italiana text-center">
+        <a href="#home">Caroline Fotografuje</a>
+      </p>
+      <div
+        class="text-container mt-[3em] flex flex-col justify-center items-center"
+      >
+        <a
+          href="#aboutme"
+          class="my-[1em] text-xl hover:scale-[1.1] transition-transform duration-[.2s]"
+          >O mnie</a
+        >
+        <a
+          href="#offert"
+          class="my-[1em] text-xl hover:scale-[1.1] transition-transform duration-[.2s]"
+          >Oferta</a
+        >
+        <a
+          href="#portfolio"
+          class="my-[1em] text-xl hover:scale-[1.1] transition-transform duration-[.2s]"
+          >Portfolio</a
+        >
+        <a
+          href="#contact"
+          class="my-[1em] text-xl hover:scale-[1.1] transition-transform duration-[.2s]"
+          >Kontakt</a
+        >
+        <a
+          href="./cennik.html"
+          class="my-[1em] text-xl hover:scale-[1.1] transition-transform duration-[.2s]"
+          >Cennik</a
+        >
+      </div>
+      <div class="decor-line my-[2em] w-[100%] h-[20px] bg-custom-light"></div>
+      <p class="text-center text-gray-600">
+        &copy;Caroline Fotografuje | 2024r.
+      </p>
+    </footer>
+  </body>
+</html>
